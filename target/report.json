@@ -1,0 +1,115 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Verify the login details with valid credentials",
+        "description": "",
+        "id": "verifying-customer-details-in-adactin-hotel;verify-the-login-details-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10764171708,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on the Adactin Hotel page",
+            "match": {
+              "location": "LoginPage.user_is_on_the_Adactin_Hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 686521800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters the \"Sangeethasree\" and \"Sangeeviji@1995\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sangeethasree\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Sangeeviji@1995\"",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginPage.user_enters_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2630921382,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should click on the login page",
+            "match": {
+              "location": "LoginPage.user_should_click_on_the_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15150273657,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should select all the required details to book the Hotel \"Sangeetha\",\"pv\",\"Taramani\",\"1234567891234567\",\"6786\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sangeetha\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"pv\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"Taramani\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"1234567891234567\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"6786\"",
+                  "offset": 109
+                }
+              ],
+              "location": "LoginPage.user_should_select_all_the_required_details_to_book_the_Hotel(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 814081715,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should verify the order number",
+            "match": {
+              "location": "LoginPage.user_should_verify_the_order_number()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Customer details in Adactin Hotel",
+    "description": "",
+    "id": "verifying-customer-details-in-adactin-hotel",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/LoginPage.feature",
+    "tags": []
+  }
+]
